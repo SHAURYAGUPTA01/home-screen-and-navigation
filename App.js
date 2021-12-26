@@ -16,7 +16,7 @@ export default function App() {
       <Stack.Navigator initialRouteName="home" screenOptions={{ headerShown: false }}>
         <Stack.Screen name="home" component={HomeScreen} />
         <Stack.Screen name="IssLocation" component={IssLocationScreen} />
-        <Stack.Screen name="meteor" component={MeteorScreen} />
+        <Stack.Screen name="Meteors" component={MeteorScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   )
